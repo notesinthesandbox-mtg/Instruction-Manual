@@ -5,41 +5,39 @@ GitHub is a cloud platform where developers store, track, and manage code. **Git
 Here is the step-by-step process to put your MTG glossary website live using GitHub Pages—no coding or terminal commands required.
 
 1. **Create a Free GitHub Account:**
-1. Go to [github.com](https://github.com/) and click **Sign up**.
-2. Follow the prompts to enter your email, create a password, and choose a username.
-3. Verify your email address through the link sent to your inbox.
+   - Go to [github.com](https://github.com/) and click **Sign up**.
+   - Follow the prompts to enter your email, create a password, and choose a username.
+   - Verify your email address through the link sent to your inbox.
 
 
 2. **Create a New Repository:** A 'repository' is simply GitHub's term for a project folder..
-1. Log into GitHub and click the **`+`** icon in the top-right corner, then select **New repository**.
-2. **Repository name:** Enter a short name for your project (e.g., `mtg-glossary`).
-3. **Visibility:** Make sure **Public** is selected (GitHub Pages requires free repositories to be public).
-4. Check the box that says **Add a README file**.
-5. Click the green **Create repository** button at the bottom.
+   - Log into GitHub and click the **`+`** icon in the top-right corner, then select **New repository**.
+   - **Repository name:** Enter a short name for your project (e.g., `mtg-glossary`).
+   - **Visibility:** Make sure **Public** is selected (GitHub Pages requires free repositories to be public).
+   - Check the box that says **Add a README file**.
+   - Click the green **Create repository** button at the bottom.
 
 
 3. **Upload Your HTML File:**
-1. Inside your new repository page, click the **Add file** dropdown button near the top right and select **Upload files**.
-2. Drag and drop your HTML file into the upload area.
-3. **Important:** The main HTML file MUST be renamed to **`index.html`** if it isn't already. GitHub Pages specifically looks for `index.html` to serve as your homepage.
-4. Scroll down and click the green **Commit changes** button.
+   - Inside your new repository page, click the **Add file** dropdown button near the top right and select **Upload files**.
+   - Drag and drop your HTML file into the upload area.
+   - **Important:** The main HTML file MUST be renamed to **`index.html`** if it isn't already. GitHub Pages specifically looks for `index.html` to serve as your homepage.
+   - Scroll down and click the green **Commit changes** button.
 
 
 4. **Enable GitHub Pages:**
-1. Near the top of your repository page, click the **Settings** tab (gear icon).
-2. On the left sidebar, click **Pages** (under the "Code and automation" section).
-3. Under **Build and deployment** $\rightarrow$ **Branch**:
-* Change the dropdown from `None` to **`main`**.
-* Leave the folder dropdown set to `/(root)`.
-
-
-4. Click **Save**.
+   - Near the top of your repository page, click the **Settings** tab (gear icon).
+   - On the left sidebar, click **Pages** (under the "Code and automation" section).
+   - Under **Build and deployment** $\rightarrow$ **Branch**:
+      * Change the dropdown from `None` to **`main`**.
+      * Leave the folder dropdown set to `/(root)`.
+   - Click **Save**.
 
 
 5. **Access Your Live Website:**
-1. Wait 1 to 3 minutes while GitHub builds your site.
-2. Refresh the **Pages** settings page. You will see a banner at the top displaying your live URL (e.g., `[https://yourusername.github.io/mtg-glossary/](https://yourusername.github.io/mtg-glossary/)`).
-3. Click the link to open your live MTG Glossary website.
+   - Wait 1 to 3 minutes while GitHub builds your site.
+   - Refresh the **Pages** settings page. You will see a banner at the top displaying your live URL (e.g., `[https://yourusername.github.io/mtg-glossary/](https://yourusername.github.io/mtg-glossary/)`).
+   - Click the link to open your live MTG Glossary website.
 
 
 ### Key Tips for updating your site later:
